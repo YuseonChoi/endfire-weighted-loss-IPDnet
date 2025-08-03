@@ -6,10 +6,8 @@
 
 
 ## 💡 Motivation
-- The backbone network requires high computational complexity as each individual narrow-band layer must processes full time frames across every frequency bin, resulting in substantial computational burden.
-- While the parameter size in a deep-learning model primarily affects memory usage, the actual inference time and energy consumption are more significantly influenced by computational complexity.
-- Reducing computational load enhances execution speed and reduces power consumption, making the model more suitable for mobile and embedded environments.
-- Therefore, this work focuses on minimizing computational complexity rather than simply reducing parameter size.
+- Most samples with low MAE (Mean Absolute Error) performance were located in the end-fire region (0°–20° / 160°–180°).
+- To address the difficulty in DoA estimation in the end-fire region, a loss function is designed to assign higher weights to samples whose true DoA lies near the end-fire direction.
 <br>
 
 
@@ -39,7 +37,7 @@
 | [140, 160)   | 88.8                         | 2.41                     | 90.7                         | 2.27                     |
 | [160, 180)   | 75.8                         | 4.11                     | 81.4                         | 3.48                     |
 
-<p>Table 1.ㅣPerformance comparison between the baseline and the model with proposed method in several DoA intervals. DoA resolution is set to 20°. </p>
+<p>Table 2.ㅣPerformance comparison between the baseline and the model with the proposed method across several DoA intervals. The DoA resolution is set to 20°. </p>
 
 <table>
   <tr>
@@ -59,6 +57,7 @@
   </tr>
 </table>
 
+<p>Table 3.ㅣIllustration of spatial spectrums in baseline and proposed model. </p>
 
 - Experiments show that the proposed model reduces computational cost by up to 51% compared to the baseline, while achieving comparable localization performance in terms of Gross Accuracy and Fine Error.
 - The results confirm that the proposed model maintains reliable localization performance even in low-resource environments.
