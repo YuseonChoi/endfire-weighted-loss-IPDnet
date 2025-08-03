@@ -1,4 +1,4 @@
-# End-fire Weighted Loss for IPDnet
+# End-fire-Weighted Loss for IPDnet
 ## 🔍 Overview
 - This study proposes an ITD sensitivity based loss to improve DoA estimation performance in the end-fire region.
 
