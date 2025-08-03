@@ -36,13 +36,13 @@
   </tr>
   <tr>
     <td><b>IPDnet<br>(Baseline)</b></td>
-    <td><img src="./assets/doa_comparison.png" width="300"></td>
-    <td><img src="./assets/doa_comparison.png" width="300"></td>
+    <td><img src="./assets/baseline_source1_1.gif" width="300"></td>
+    <td><img src="./assets/baseline_source2_1.gif" width="300"></td>
   </tr>
   <tr>
     <td><b>IPDnet with<br>End-fire weighted loss</b></td>
-    <td><img src="./assets/doa_comparison.png" width="300"></td>
-    <td><img src="./assets/doa_comparison.png" width="300"></td>
+    <td><img src="./assets/endfire_source1_1.gif" width="300"></td>
+    <td><img src="./assets/endfire_source2_1.gif" width="300"></td>
   </tr>
 </table>
 
