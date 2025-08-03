@@ -7,6 +7,7 @@
 ## 💡 Motivation
 - Most samples with low MAE (Mean Absolute Error) performance were located in the end-fire region (0°–20° / 160°–180°).
 - To address the difficulty in DoA estimation in the end-fire region, a loss function is designed to assign higher weights to samples whose true DoA lies near the end-fire direction.
+
 ![IDEA](assets/idea.png)
 <br>
 
