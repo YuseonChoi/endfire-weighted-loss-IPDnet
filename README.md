@@ -28,6 +28,25 @@
 
 <p>Table 1.ㅣPerformance comparison between the baseline and the lightweight model on the simulation dataset.</p>
 
+<table>
+  <tr>
+    <th></th>
+    <th># of Source: 1</th>
+    <th># of Source: 2</th>
+  </tr>
+  <tr>
+    <td><b>IPDnet<br>(Baseline)</b></td>
+    <td><img src="./assets/doa_comparison.png" width="300"></td>
+    <td><img src="./assets/doa_comparison.png" width="300"></td>
+  </tr>
+  <tr>
+    <td><b>IPDnet with<br>End-fire weighted loss</b></td>
+    <td><img src="./assets/doa_comparison.png" width="300"></td>
+    <td><img src="./assets/doa_comparison.png" width="300"></td>
+  </tr>
+</table>
+
+
 - Experiments show that the proposed model reduces computational cost by up to 51% compared to the baseline, while achieving comparable localization performance in terms of Gross Accuracy and Fine Error.
 - The results confirm that the proposed model maintains reliable localization performance even in low-resource environments.
 <br>
