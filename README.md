@@ -42,7 +42,7 @@
   <tr>
     <td><b>IPDnet with<br>End-fire weighted loss</b></td>
     <td><img src="./assets/endfire_source1_1.gif" width="300"></td>
-    <td><img src="./assets/endfire_source2_1.gif" width="300"></td>
+    <td><img src="./assets/endire_source2_1.gif" width="300"></td>
   </tr>
 </table>
 
