@@ -1,4 +1,4 @@
-#Endfire-weighted Loss for IPDnet
+# Endfire-weighted Loss for IPDnet
 ## 🔍 Overview
 - This study proposes a lightweight LSTM-based neural network for localizing multiple moving sources in noisy and reverberant environment
 - A full-band and narrow-band fusion network is adopted as the backbone netowrk, which has recently emerged as a prominant research trend. 
