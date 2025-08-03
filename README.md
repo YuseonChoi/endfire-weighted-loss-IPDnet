@@ -1,7 +1,6 @@
-# Endfire-weighted Loss for IPDnet
+# End-fire Weighted Loss for IPDnet
 ## 🔍 Overview
-- This study proposes a lightweight LSTM-based neural network for localizing multiple moving sources in noisy and reverberant environment
-- A full-band and narrow-band fusion network is adopted as the backbone netowrk, which has recently emerged as a prominant research trend. 
+- This study proposes an ITD sensitivity based loss to improve DoA estimation performance in the end-fire region.
 <br>
 
 
@@ -59,11 +58,8 @@
 
 <p>Table 3.ㅣIllustration of spatial spectrums in baseline and proposed model. </p>
 
-- Experiments show that the proposed model reduces computational cost by up to 51% compared to the baseline, while achieving comparable localization performance in terms of Gross Accuracy and Fine Error.
-- The results confirm that the proposed model maintains reliable localization performance even in low-resource environments.
+- Compared to the baseline, a significant improvement in DoA estimation accuracy is observed in the end-fire region, although there is a slight performance degradation in the broadside direction.
 <br>
 
 ## 📚 Reference
 [1] Wang, Yabo, Bing Yang, and Xiaofei Li. "IPDnet: A universal direct-path IPD estimation network for sound source localization." IEEE/ACM Transactions on Audio, Speech, and Language Processing (2024).
-[2] Stoller, Daniel, Sebastian Ewert, and Simon Dixon. "Wave-u-net: A multi-scale neural network for end-to-end audio source separation." arXiv preprint arXiv:1806.03185 (2018).
-[3] Battula, Shanmukha Srinivas, et al. "Robust Frame-level Speaker Localization in Reverberant and Noisy Environments by Exploiting Phase Difference Losses." ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2025.
