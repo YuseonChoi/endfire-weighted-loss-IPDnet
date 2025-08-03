@@ -1,0 +1,17 @@
+_instantiator: pytorch_lightning.cli.instantiate_module
+ch_mode: M
+compile: false
+device: cuda
+exp_name: exp
+fs: 16000
+is_linear_array: true
+is_planar_array: true
+max_source: 2
+mic_pos: "Unable to serialize instance tensor([[-0.0400,  0.0000,  0.0000],\n    \
+  \    [ 0.0400,  0.0000,  0.0000]])"
+nfft: 512
+res_phi: 180
+res_the: 1
+tar_useVAD: true
+win_len: 512
+win_shift_ratio: 0.5
