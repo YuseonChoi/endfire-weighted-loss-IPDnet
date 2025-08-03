@@ -20,14 +20,14 @@
 
 
 ## 📊 Result
-| Method                       | Gross Accuracy (10°) [%] | Fine Error (10°) [°] |
+| Method                       | Gross Accuracy [%] | Fine Error [°] |
 |:----------------------------:|:-------------------------:|:--------------------:|
 | IPDnet (Baseline)                  | 89.4                      | 2.05                 |
 | IPDnet with End-fire weighted loss (Proposed) | **90.7**                  | **1.98**             |
 
-<p>Table 1.ㅣPerformance comparison between the baseline and the lightweight model on the simulation dataset.</p>
+<p>Table 1.ㅣPerformance comparison between the baseline and the model with proposed method on the simulation dataset. Error Tolerance is set to 10°. </p>
 
-| DoA interval     | (Baseline) Gross Accuracy [%] | (Baseline) Fine Error [°] | (Proposed) Gross Accuracy [%] | (Proposed) Fine Error [°] |
+| DoA interval     | (Baseline)<br>Gross Accuracy [%] | (Baseline)<br>Fine Error [°] | (Proposed)<br>Gross Accuracy [%] | (Proposed)<br>Fine Error [°] |
 |:------------:|:----------------------------:|:------------------------:|:----------------------------:|:------------------------:|
 | [0, 20)      | 77.7                         | 3.34                     | 82.7                         | 3.29                     |
 | [20, 40)     | 87.6                         | 2.52                     | 90.1                         | 2.37                     |
@@ -39,7 +39,7 @@
 | [140, 160)   | 88.8                         | 2.41                     | 90.7                         | 2.27                     |
 | [160, 180)   | 75.8                         | 4.11                     | 81.4                         | 3.48                     |
 
-<p>Table 1.ㅣPerformance comparison between the baseline and the lightweight model on the simulation dataset. (DoA resolution: 20°)</p>
+<p>Table 1.ㅣPerformance comparison between the baseline and the model with proposed method in several DoA intervals. DoA resolution is set to 20°. </p>
 
 <table>
   <tr>
