@@ -20,13 +20,26 @@
 
 
 ## 📊 Result
-| Method                                 | # Params. [M] | FLOPs [G/s] | Gross Accuracy [%] | Fine Error [°] |
-|----------------------------------------|---------------|-------------|---------------------|----------------|
-| Full-Narrow Block × 1                  | 0.47          | 11.88       | 88.54               | 2.34           |
-| Full-Narrow Block × 2 (Baseline)       | 0.71          | 19.35       | 90.91               | **2.01**       |
-| Lightweight Model                      | 1.49          | 9.4         | **91.31**           | 2.18           |
+| Method                       | Gross Accuracy (10°) [%] | Fine Error (10°) [°] |
+|:----------------------------:|:-------------------------:|:--------------------:|
+| IPDnet (Baseline)                  | 89.4                      | 2.05                 |
+| IPDnet with End-fire weighted loss (Proposed) | **90.7**                  | **1.98**             |
 
 <p>Table 1.ㅣPerformance comparison between the baseline and the lightweight model on the simulation dataset.</p>
+
+| DoA interval     | (Baseline) Gross Accuracy [%] | (Baseline) Fine Error [°] | (Proposed) Gross Accuracy [%] | (Proposed) Fine Error [°] |
+|:------------:|:----------------------------:|:------------------------:|:----------------------------:|:------------------------:|
+| [0, 20)      | 77.7                         | 3.34                     | 82.7                         | 3.29                     |
+| [20, 40)     | 87.6                         | 2.52                     | 90.1                         | 2.37                     |
+| [40, 60)     | 87.7                         | **2.09**                 | 89.9                         | 2.10                     |
+| [60, 80)     | 89.8                         | **1.69**                 | 90.6                         | 1.70                     |
+| [80, 100)    | **90.1**                     | **1.41**                 | 89.8                         | 1.52                     |
+| [100, 120)   | 88.0                         | 1.75                     | 89.2                         | 1.74                     |
+| [120, 140)   | 88.6                         | 2.07                     | 89.9                         | 2.00                     |
+| [140, 160)   | 88.8                         | 2.41                     | 90.7                         | 2.27                     |
+| [160, 180)   | 75.8                         | 4.11                     | 81.4                         | 3.48                     |
+
+<p>Table 1.ㅣPerformance comparison between the baseline and the lightweight model on the simulation dataset. (DoA resolution: 20°)</p>
 
 <table>
   <tr>
