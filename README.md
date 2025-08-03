@@ -8,33 +8,12 @@
 ## 💡 Motivation
 - Most samples with low MAE (Mean Absolute Error) performance were located in the end-fire region (0°–20° / 160°–180°).
 - To address the difficulty in DoA estimation in the end-fire region, a loss function is designed to assign higher weights to samples whose true DoA lies near the end-fire direction.
+![IDEA](assets/idea.png)
 <br>
 
 
 ## ⭐ Method
-### 🎯 End-Fire Weighting Strategy
-We utilize the derivative of **ITD** (Interchannel Time Difference) with respect to the DoA angle \( \theta \) to design an effective weighting strategy for end-fire localization.
-- The **ITD** is defined as:  
-  $$
-  \text{ITD} = \frac{d \cdot \cos \theta}{c}
-  $$
-
-- Taking the derivative of ITD with respect to \( \theta \):  
-  $$
-  \frac{d(\text{ITD})}{d\theta} = \frac{-d \cdot \sin \theta}{c}
-  $$
-
-  This represents how sensitive the ITD is to changes in the DoA.
-
-- In the **end-fire directions** (\( \theta = 0^\circ \) or \( 180^\circ \)), the value of \( \sin \theta \) approaches zero.  
-  → The ITD becomes **less sensitive** to changes in the DoA, making it more difficult for the model to capture spatial cues from the signal.
-
-- Since \( \sin \theta \) reflects the **sensitivity of both ITD and IPD** to DoA changes, we incorporate it into the loss function.
-
-> 📌 **By assigning higher weights to samples where \( \sin \theta \) is small (i.e., near end-fire), the model is encouraged to learn more effectively from these challenging cases.**
-
-
-
+![METHOD](assets/method.png)
 <br>
 
 
